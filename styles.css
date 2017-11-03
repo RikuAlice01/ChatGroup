@@ -1,0 +1,77 @@
+<style>
+
+textarea {
+		width: 400px; height: 280px;
+		resize: none;
+}
+input[type=text][name=name],[type=text][name=fullname],[type=password]{
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus,[type=password]:focus {
+    border-color:#333;
+}
+
+#submit {
+ color: #fff;
+ font-size: 0;
+ width: 135px;
+ height: 60px;
+ border: none;
+ margin: 0;
+ padding: 0;
+ background: #0c0 url(image) 0 0 no-repeat; 
+}
+
+input[type=text][name=comments] {
+		background-color:#CCCCCC;
+		border: none;
+		width: 796px;
+		height: 30px;
+		box-sizing: border-box;
+		color: white;
+		margin: 8px 0;
+		padding: 3px 5px;
+		border-radius:5px;
+}
+
+input[type=submit] {
+					margin: 8px 0;
+					}
+					
+div[id=Display]{
+		width:1200px; 
+		overflow:hidden
+		padding: 1px 5px; 
+		background: #606060;  
+		border: 0px solid #333; 
+		box-shadow: 2px 2px 3px #404040;
+		border-radius:5px;
+}
+
+div[id=loginDisplay]{
+		height:300px; 
+		width:435px; 
+		padding: 5px 5px; 
+		background: #606060;
+		overflow: auto;
+		border: 0px solid #333;
+		box-shadow: 2px 2px 3px #404040;
+		border-radius:5px;
+		}
+		
+a:link    {color:pink; background-color:transparent; text-decoration:none}
+a:visited {color:pink; background-color:transparent; text-decoration:none}
+a:hover   {color:white; background-color:transparent; text-decoration:underline}
+a:active  {color:yellow; background-color:transparent; text-decoration:underline}
+
+body {  background-color: #808080;}
+
+th {background-color: rgb(238, 179, 18);color: white;}
+
+tr {color: white;}
+
+</style>
